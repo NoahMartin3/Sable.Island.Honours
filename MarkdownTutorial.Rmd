@@ -21,29 +21,3 @@ image: !(feral_horse_studies_map.png)
 ```
 ###### Figure 1. Shows a map of studies on feral horses around the world. 
 
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-```{r}
-A <- c("a", "a", "b", "b")
-B <- c(5, 10, 15, 20)
-dataframe <- data.frame(A, B)
-print(dataframe)
-```
-
-```{r global_options, include = FALSE}
-knitr::opts_chunk$set(message=FALSE,
-tidy.opts=list(width.cutoff=60))
-```
