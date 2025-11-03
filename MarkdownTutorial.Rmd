@@ -17,7 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 This meta analysis looked at horse populations across five continents and their effects on plants (58% of studies) and soils (35% of studies). Two-thirds of the studies were from North America (47%) and Oceania (21%). 
 ```{r}
-image: !(feral_horse_studies_map.png)
+image: !(feral_horse_studies_map.jpg)
+
+knitr::include_graphics("feral_horse_studies_map.jpg").
 ```
 ###### Figure 1. Shows a map of studies on feral horses around the world. 
 
