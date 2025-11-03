@@ -2,7 +2,9 @@
 title: "Article Summary"
 author: "Noah Martin"
 date: "2025-10-29"
-output: 
+output:
+  html_document:
+    df_print: paged
   pdf_document:
     latex_engine: xelatex
 ---
