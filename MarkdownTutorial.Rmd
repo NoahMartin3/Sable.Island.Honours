@@ -1,5 +1,5 @@
 ---
-title: "Tutorial 6"
+title: "Article Summary"
 author: "Noah Martin"
 date: "2025-10-29"
 output: 
@@ -11,11 +11,14 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Article summary
+#  Feral horse activity reduces environmental quality in ecosystems globally
 
+This meta analysis looked at horse populations across five continents and their effects on plants (58% of studies) and soils (35% of studies). Two-thirds of the studies were from North America (47%) and Oceania (21%). 
+```{r}
+image: !(feral_horse_studies_map.jpg)
+```
+###### Figure 1. Shows a map of studies on feral horses around the world. 
 
-
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
 
 ```{r cars}
 summary(cars)
